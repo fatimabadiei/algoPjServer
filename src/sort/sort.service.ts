@@ -37,10 +37,7 @@ export class SortService {
         res = await this.algo.radixSort(intArr);
     }else if(algoName === "jsSort"){
         res = await intArr.sort();
-    }else if(algoName === "countingSort"){  //didn't worked
-        res = await this.algo.countingSort(intArr,Math.min(intArr),Math.max(intArr)); 
-    }
-    else{
+    }else{
         throw new NotFoundException("Algorithm Not Founded");
     }
     //console.log(res.length);

@@ -12,12 +12,5 @@ export class GetFile {
     }
   }
 
-  readStringFile() {
-    var fs = require('fs');
-    var stringFile = fs.readFileSync('./string.txt');
-    var arr = Array.from(stringFile);
-    return arr;
-  }
-
 }
 

@@ -54,13 +54,7 @@ export class GenRandom {
         }
         return result;
     }
-        //for(let j = 0; j < 10000 ; j++){
-        //    arr.push(result);
-        //}
-        //this.storeData(arr, './str.json');
-
         
-    
       arrOfRandomString() {
         let arr = [];
         for (let i = 0; i < 100000; ++i) {
